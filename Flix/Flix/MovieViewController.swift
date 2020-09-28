@@ -8,7 +8,7 @@
 import UIKit
 import AlamofireImage
 
-class MovieTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MovieViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
 
     @IBOutlet weak var movieTableView: UITableView!
@@ -60,10 +60,22 @@ class MovieTableViewController: UIViewController, UITableViewDataSource, UITable
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
+ */
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        let cell = sender as! UITableViewCell
+        let indexPath = movieTableView.indexPath(for: cell)!
+        
+        let movie = movies[indexPath.row]
+        
+        let movieDetailController = segue.destination as! MovieDetailsViewController        
+        movieDetailController.movie = movie
+        
+        movieTableView.deselectRow(at: indexPath, animated: true)
+        
+        
     }
-    */
+    
 
 }
