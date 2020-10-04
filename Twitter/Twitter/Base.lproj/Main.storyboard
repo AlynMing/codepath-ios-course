@@ -18,23 +18,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8do-om-qQd">
-                                <rect key="frame" x="134.5" y="302" width="106" height="63"/>
+                                <rect key="frame" x="51" y="302" width="271" height="69"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="106" id="dJ1-sS-JwG"/>
-                                    <constraint firstAttribute="height" constant="63" id="lJ3-3o-P3c"/>
+                                    <constraint firstAttribute="width" constant="271" id="dJ1-sS-JwG"/>
+                                    <constraint firstAttribute="height" constant="69" id="lJ3-3o-P3c"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="Login"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="onLoginButton:" destination="4Rq-vA-bKJ" eventType="touchUpInside" id="Khl-YB-zyp"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="zNH-qg-Q9q">
+                                <rect key="frame" x="94" y="64" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4mu-6A-jBf"/>
+                                    <constraint firstAttribute="width" constant="200" id="B2C-yB-OWz"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sIy-2A-Isa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="8do-om-qQd" firstAttribute="centerY" secondItem="0In-vM-Vf1" secondAttribute="centerY" id="0vJ-6w-fFL"/>
-                            <constraint firstItem="8do-om-qQd" firstAttribute="centerX" secondItem="0In-vM-Vf1" secondAttribute="centerX" id="6jZ-YR-7Oo"/>
+                            <constraint firstItem="8do-om-qQd" firstAttribute="centerY" secondItem="0In-vM-Vf1" secondAttribute="centerY" constant="3" id="0vJ-6w-fFL"/>
+                            <constraint firstItem="8do-om-qQd" firstAttribute="centerX" secondItem="0In-vM-Vf1" secondAttribute="centerX" constant="-1" id="6jZ-YR-7Oo"/>
+                            <constraint firstItem="zNH-qg-Q9q" firstAttribute="leading" secondItem="sIy-2A-Isa" secondAttribute="leading" constant="94" id="Ai7-dO-DQw"/>
+                            <constraint firstItem="zNH-qg-Q9q" firstAttribute="top" secondItem="sIy-2A-Isa" secondAttribute="top" constant="64" id="gAB-kT-wk3"/>
                         </constraints>
                     </view>
                     <connections>
@@ -140,6 +152,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TwitterLogoBlue" width="200" height="200"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
