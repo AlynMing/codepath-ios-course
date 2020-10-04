@@ -1,17 +1,26 @@
-## Flix Part 2
+# Twitter - Part I
 
-### User Stories
+This is a basic twitter app to read your tweets.
 
-#### REQUIRED (10pts)
-- [x] (5pts) User can tap a cell to see more details about a particular movie.
-- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+Time spent: **2.5** hours spent in total
 
-#### BONUS
-- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] User sees app icon in home screen and styled launch screen. (1pt)
+- [x] User can log in. (1pt)
+- [x] User can log out. (1pt)
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can view tweets with the user profile picture, username, and tweet text. (6pts)
+
+The following **bonus** features are implemented:
+
+- [x] User can pull to refresh. (1pt)
+- [x] User can load past tweets infinitely. (2pts)
 
 ### App Walkthrough GIF
-<img src="https://github.com/CleverChuk/codepath-ios-course/blob/flix-2/flix-2.gif" width=250><br>
+<img src="https://github.com/CleverChuk/codepath-ios-course/blob/twitter/twitter.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
