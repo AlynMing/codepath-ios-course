@@ -20,7 +20,7 @@ The following **bonus** features are implemented:
 
 
 ### App Walkthrough GIF
-<img src="https://github.com/CleverChuk/codepath-ios-course/blob/twitter/twitter-2.gif" width=250><br>
+<img src="https://github.com/CleverChuk/codepath-ios-course/blob/twitter-2/twitter-2.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
