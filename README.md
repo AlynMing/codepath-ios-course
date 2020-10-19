@@ -1,26 +1,27 @@
-# Twitter - Part II
+# Parstagram - Part I
 
-This is a basic twitter app to view, compose, favorite, and retweet tweets.
+This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
 
-Time spent: **2.5** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [x] User can compose a tweet. (4pts)
-- [x] User can favorite a tweet. (4pts)
-- [x] User can retweet a tweet. (2pts)
+- [x] User sees app icon in home screen and styled launch screen. (1pt)
+- [x] User can sign up to create a new account. (1pt)
+- [x] User can log in. (1pt)
+- [x] User can take a photo, add a caption, and post it to the server. (3pt)
+- [x] User can view the last 20 posts. (4pts)
 
 The following **bonus** features are implemented:
 
-- [ ] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280) (2pts)
-- [ ] User can view their profile in a profile tab. (3pts)
-- [ ] User sees embedded images in tweet if available. (3pts)
+- [ ] User can pull to refresh. (1pt)
+- [ ] User can load past tweets infinitely. (2pts)
 
 
 ### App Walkthrough GIF
-<img src="https://github.com/CleverChuk/codepath-ios-course/blob/twitter-2/twitter-2.gif" width=250><br>
+<img src="https://github.com/CleverChuk/codepath-ios-course/blob/instagram-0/insta.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
