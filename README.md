@@ -1,22 +1,22 @@
-# Twitter - Part II
+# Parstagram - Part II
 
-This is a basic twitter app to view, compose, favorite, and retweet tweets.
+This is an Instagram clone with a custom Parse backend that allows a user to post photos, view a global photos feed, and add comments!
 
-Time spent: **2.5** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [x] User can compose a tweet. (4pts)
-- [x] User can favorite a tweet. (4pts)
-- [x] User can retweet a tweet. (2pts)
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can log out. (1pt)
+- [x] User can view comments on a post. (3pts)
+- [x] User can add a new comment. (5pts)
 
 The following **bonus** features are implemented:
 
-- [ ] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280) (2pts)
-- [ ] User can view their profile in a profile tab. (3pts)
-- [ ] User sees embedded images in tweet if available. (3pts)
+- [ ] User can add a profile picture. (2pts)
+- [ ] Profile pictures are shown for posts and comments. (2pts)
 
 
 ### App Walkthrough GIF
