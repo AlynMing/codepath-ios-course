@@ -27,9 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[Video Walkthrough](https://imgur.com/a/CDP4DmJ)
-
-
+<img src="https://imgur.com/a/CDP4DmJ">
 
 ## Notes
 
